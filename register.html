@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cosmic energy, Spiral Intelligence and Consious Systems - Alligning Energ</title>    
+    <meta name="keywords" content="WebSite Template" />
+    <meta name="description" content="Porto - Multipurpose Website Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Web Fonts  -->
+    <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CSintony:400,700&display=swap" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="vendor/animate/animate.compat.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="css/skins/skin-business-consulting.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body data-plugin-page-transition>
+
+<div class="body">
+
+    <!-- Header -->
+    <header id="header" class="header-effect-shrink">
+        <div class="header-body border-top-0 box-shadow-none">
+            <div class="header-container container">
+                <div class="header-row">
+                    <div class="header-column">
+                        <div class="header-row">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img alt="Porto" width="100" height="48" src="img/GI short logo full.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-column justify-content-end">
+                        <div class="header-row">
+                            <div class="header-nav header-nav-line header-nav-bottom-line">
+                                <div class="header-nav-main">
+                                    <nav class="collapse">
+                                        <ul class="nav nav-pills" id="mainNav">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li class="active"><a href="register.html">Register</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Register Section -->
+    <div role="main" class="main">
+        <section class="page-header page-header-classic bg-light py-5 mb-4">
+            <div class="container text-center">
+                <h1 class="font-weight-bold text-dark mb-2">Create an Account</h1>
+                <p class="text-muted">Sign up to access all our features</p>
+            </div>
+        </section>
+
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body p-4 p-md-5">
+                            <h4 class="text-center mb-4">Register</h4>
+                            <form action="php/register-process.php" method="POST">
+                                
+                                <!-- Full Name -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" name="fullname" placeholder="Enter your full name" required>
+                                </div>
+
+                                <!-- Username -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Username</label>
+                                    <input type="text" class="form-control" name="username" placeholder="Choose a username" required>
+                                </div>
+
+                                <!-- Country -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Country</label>
+                                    <select class="form-select" name="country" required>
+                                        <option value="">Select your country</option>
+                                        <option value="US">United States</option>
+                                        <option value="UK">United Kingdom</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="IN">India</option>
+                                        <option value="NG">Nigeria</option>
+                                        <option value="ZA">South Africa</option>
+                                        <option value="PH">Philippines</option>
+                                    </select>
+                                </div>
+
+                                <!-- Phone Number -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <div class="input-group">
+                                        <select class="form-select" name="country_code" style="max-width: 100px;">
+                                            <option value="+1">+1</option>
+                                            <option value="+44">+44</option>
+                                            <option value="+61">+61</option>
+                                            <option value="+91">+91</option>
+                                            <option value="+234">+234</option>
+                                            <option value="+27">+27</option>
+                                        </select>
+                                        <input type="tel" class="form-control" name="phone" placeholder="1234567890" required>
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
+                                </div>
+
+                                <!-- Password -->
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" class="form-control" name="password" placeholder="Enter password" required>
+                                </div>
+
+                                <!-- Confirm Password -->
+                                <div class="form-group mb-4">
+                                    <label class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control" name="confirm_password" placeholder="Re-enter password" required>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <div class="d-grid mb-3">
+                                    <button type="submit" class="btn btn-primary btn-modern">Create Account</button>
+                                </div>
+
+                                <div class="text-center text-muted my-3">or sign up with</div>
+
+                                <!-- Social Signup -->
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-danger btn-icon btn-rounded me-2"><i class="fab fa-google"></i> Google</a>
+                                    <a href="#" class="btn btn-primary btn-icon btn-rounded"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                </div>
+
+                                <div class="text-center mt-4">
+                                    <p class="mb-0">Already have an account? <a href="login.html" class="fw-bold">Login here</a></p>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer-texts-more-lighten">
+        <div class="container">
+            <div class="row py-4 my-5">
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <h5 class="text-4 text-color-light mb-3">CONTACT INFO</h5>
+                    <ul class="list list-unstyled">
+                        <li><strong>ADDRESS:</strong> Melbourne, 121 King St, Australia</li>
+                        <li><strong>PHONE:</strong> <a href="tel:+1234567890">Toll Free (123) 456-7890</a></li>
+                        <li><strong>EMAIL:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
+                        <li><strong>WORKING HOURS:</strong> Mon - Sun / 9:00AM - 8:00PM</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-2 mb-5 mb-lg-0">
+                    <h5 class="text-4 text-color-light mb-3">USEFUL LINKS</h5>
+                    <ul class="list list-unstyled mb-0">
+                        <li><a href="contact-us.html">Help Center</a></li>
+                        <li><a href="about-us-advanced.html">About Us</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="privacy-policy.html" target="_blank">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <h5 class="text-4 text-color-light mb-3">RECENT NEWS</h5>
+                    <article class="mb-3">
+                        <a href="blog-post.html" class="text-color-light text-3-5">Why should I buy a Web Template?</a>
+                        <p class="mb-0"><a href="#">Nov 25, 2020</a></p>
+                    </article>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="text-4 text-color-light mb-3">SUBSCRIBE NEWSLETTER</h5>
+                    <form id="newsletterForm" class="form-style-5 opacity-10" action="php/newsletter-subscribe.php" method="POST">
+                        <div class="input-group mb-3">
+                            <input class="form-control" placeholder="Email Address" name="newsletterEmail" type="text" />
+                            <button class="btn btn-primary" type="submit">SUBSCRIBE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="footer-copyright text-center pt-4 pb-4">
+                <p class="mb-0">GI © 2025. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Scripts -->
+<script src="vendor/plugins/js/plugins.min.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/theme.init.js"></script>
+
+</body>
+</html>

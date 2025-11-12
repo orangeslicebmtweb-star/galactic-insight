@@ -1,5 +1,0 @@
-/* Galactic Insights: Hide default Porto demo dropdowns from main navigation */
-#mainNav > li.dropdown:not(.gi-keep),
-#mainNav > li.dropdown-mega {
-  display: none !important;
-}
